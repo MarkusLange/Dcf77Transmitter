@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map DCF77 Transmitter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+createtimearray	KEYWORD2
+cleararray	KEYWORD2
+skip_parity	KEYWORD2
+sendstream	KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+
+DCF77Transmitter	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+P1	LITERAL1
+P2	LITERAL1
+P3	LITERAL1
+DCFOutputPin	LITERAL1

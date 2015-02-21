@@ -48,8 +48,13 @@ class DCF77Transmitter {
  public:
   DCF77Transmitter (uint8_t pin, boolean mode = true);
   void createtimearray (int hour, int min, int day, int month, int year, boolean leapsecond = false);
+  void createtimearray (char* time, char* date, boolean leapsecond = false);
   int cleararray ();
+  int skip_streamstartbit ();
   int skip_parity (int m);
+  int skip_timezone (boolean zone = true);
+  int skip_startbit ();
+  int switch_to_reservantenna ();
   void sendstream (boolean report = false);
   void blink13 (boolean doblink = true);
   

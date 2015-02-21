@@ -15,6 +15,10 @@
 createtimearray	KEYWORD2
 cleararray	KEYWORD2
 skip_parity	KEYWORD2
+skip_timezone	KEYWORD2
+skip_startbit	KEYWORD2
+skip_streamstartbit	KEYWORD2
+switch_to_reservantenna	KEYWORD2
 sendstream	KEYWORD2
 
 #######################################
